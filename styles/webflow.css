@@ -1,13 +1,10 @@
 
-
 .raleway-normal{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   /* font-weight: <weight>; */
   font-style: normal;
 }
-
-/* .inter-normal { */
 .inter-normal{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -15,32 +12,21 @@
     font-style: normal;
 }
 /* shared style */
-.section{
-    /* border: 15px solid white; */
-   /* padding: 10px; */
-   
-}
 .section-title{
     font-size: 42px;
     font-weight: bold;
     color: #252432;
-    
 }
 .section-description{
     font-size: 18px;
     /* font-weight: normal; */
     color: rgba(37, 36, 50, 0.5);
-   
 }
-
 /* header */
 .header{
     background-image: url('../Assets/Hero-bg.png');
     background-position: left top;
     background-repeat: no-repeat;
-    /* height: 800px; */
-    /* width: 1440px; */
-    /* gap: 158px; */
 }
 .btn-primary{
   background-color: #4E47FF; 
@@ -51,7 +37,9 @@
   padding: 12px 36px;
   border-radius: 6px;
 }
-
+.btn-primary:hover{
+    background-color: red;
+}
 /* Nav styles */
 nav{
     display: flex;
@@ -63,10 +51,7 @@ nav{
     font-weight: black;
     font-size: 34px;
     color: #4E47FF;
-    
 }
-
-
 nav ul li{
     list-style: none;
 }
@@ -80,32 +65,22 @@ main section{
     margin-bottom: 130px;
 }
 .secondary-bg{
-    background-color:rgba(242, 237, 237, 1);
+    background-color: rgb(242, 237, 237, 1);
 }
 /* banner styles */
 .banner{
    text-align: center;
     margin: 152px 267px 309px 250px;
-    /* padding:auto; */
-    /* gap: 158px; */
     padding-bottom: 180px;
-    /* justify-content: space-around; */
-    
 }
 .banner-title{
     font-weight: bold;
     font-size: 65px;
     color: #252432;
-   
 }
-
 .hero-container{
     display: flex;
     justify-content:space-around;
-    /* margin: -100px; */
-    /* align-items: center; */
-    /* padding: 150px 116px; */
-    /* gap: 140px; */
     text-align:left;
 }
 .hero-container img{
@@ -118,7 +93,6 @@ main section{
     margin:-20px;
     border-radius: 40px;
     text-align: center;
-    
 }
 .user-title{
     font-size: 38px;
@@ -128,12 +102,10 @@ main section{
 .users{
     display: flex;
     justify-content: space-around;
-    
 }
 .user-items{
    justify-content: center;
 }
-
 .items-title{
    font-size: 80px;
    font-weight: bold;
@@ -161,13 +133,10 @@ main section{
 /* Touch　section */
 .touch{
     padding:100px 100px;
-  
-
 }
 .touch-section{
     display: flex;
     gap: 50px;
-    
 }
 .touch-title{
    font-size: 80px;
@@ -196,6 +165,9 @@ main input[type="button"]{
   display: block;
   border-radius: 5px;
 }
+main input[type="button"]:hover{
+    background-color: red;
+}
 /* footer section */
 footer{
     margin: 0 auto;
@@ -206,7 +178,6 @@ footer{
    justify-content: center;
    margin: 0 auto;
    padding: 15px 30px;
-
 }
 .footer-title{
     font-size: 80px;
