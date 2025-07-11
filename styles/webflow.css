@@ -16,7 +16,7 @@
 }
 /* shared style */
 .section{
-    border: 15px solid white;
+    /* border: 15px solid white; */
    /* padding: 10px; */
    
 }
@@ -79,6 +79,9 @@ main section{
     margin-top: 130px;
     margin-bottom: 130px;
 }
+.secondary-bg{
+    background-color:rgba(242, 237, 237, 1);
+}
 /* banner styles */
 .banner{
    text-align: center;
@@ -99,10 +102,10 @@ main section{
 .hero-container{
     display: flex;
     justify-content:space-around;
-    margin: -100px;
+    /* margin: -100px; */
     /* align-items: center; */
-    padding: 150px 116px;
-    gap: 140px;
+    /* padding: 150px 116px; */
+    /* gap: 140px; */
     text-align:left;
 }
 .hero-container img{
@@ -141,7 +144,7 @@ main section{
    color:#252432;
 }
 /* feedback section */
-.feedbac{
+.feed{
     text-align: center;
     font-size: 42px;
     font-weight: bold;
@@ -152,7 +155,46 @@ main section{
 }
 .feedback{
     padding:30px;
-    box-shadow: 0px 10px 50px 0px rgba(242, 237, 237, 1);
+    box-shadow: 0px 10px 50px 0px white;
     border-radius: 10px;
+}
+/* Touch　section */
+.touch{
+    padding:100px 100px;
+  
+
+}
+.touch-section{
+    display: flex;
+    gap: 50px;
+    
+}
+.touch-title{
+   font-size: 80px;
+   font-weight: bold;
+   color: #252432;
+}
+/* form section */
+main input[type="text"], main input[type="email"], main textarea{
+    height: 50px;
+    border-radius: 5px;
+    background-color:white ;
+    display:block;
+    width: 133%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+}
+main input[type="button"]{
+  background-color: #4E47FF; 
+  font-weight: bold; 
+  font-size: 16px;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  width: 150%;
+  margin-bottom: 24px;
+  display: block;
+  border-radius: 5px;
+
 }
 
